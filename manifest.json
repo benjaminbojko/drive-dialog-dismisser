@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Drive Alert Dismisser",
+  "name": "Drive Dialog Dismisser",
 	"description": "Auto-confirms the alerts that appear when you create or move files in a shared Google Drive folder",
   "version": "1.0.0",
 	"content_scripts": [
