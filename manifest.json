@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Drive Alert Dismisser",
+	"description": "Auto-confirms the alerts that appear when you create or move files in a shared Google Drive folder",
+  "version": "1.0.0",
+	"content_scripts": [
+    {
+      "js": ["src/content.js"],
+      "matches": ["https://drive.google.com/*"]
+    }
+  ],
+	"icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "64": "assets/icon64.png",
+    "96": "assets/icon96.png",
+    "128": "assets/icon128.png"
+  }
+}
