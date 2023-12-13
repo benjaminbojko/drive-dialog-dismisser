@@ -23,5 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Windows
+# Others
 desktop.ini
+releases/

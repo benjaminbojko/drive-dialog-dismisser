@@ -32,7 +32,7 @@ const mutationCallback = (mutationList, observer) => {
 				confirmButton.click();
 				debugLog(`Confirmed dialog: ${chalk.green(heading)}`);
 			} catch (error) {
-				debugLog(`Error: `, chalk.red(error));
+				debugLog(`Error: ${chalk.red(error)}`);
 			}
 		}
   }
